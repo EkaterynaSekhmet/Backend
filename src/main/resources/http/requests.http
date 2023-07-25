@@ -1,0 +1,18 @@
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+"email": "ekateryna@gmail.com",
+"password": "fdifii66"
+}
+
+###
+
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "email": "patrick@gmail.com",
+  "password": "4kvj73hh"
+}
+
