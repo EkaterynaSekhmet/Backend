@@ -1,0 +1,24 @@
+### Добавление Екатерины
+
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+"email": "ekateryna@gmail.com",
+"password": "fdifii66"
+}
+
+### Добавление Патрика
+
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "email": "patrick@gmail.com",
+  "password": "4kvj73hh"
+}
+
+### Получение всех пользователей
+
+GET localhost:8080/api/users
+
