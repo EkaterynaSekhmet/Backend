@@ -1,0 +1,51 @@
+### Добавление Екатерины
+
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+"email": "ekateryna@gmail.com",
+"password": "fdifii66sdf"
+}
+
+### Добавление Патрика
+
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "email": "patrick@gmail.com",
+  "password": "ZZ.4567dfghjhgfg"
+}
+
+### Получение всех пользователей
+
+GET localhost:8080/api/users
+
+### Удаление пользователя
+
+DELETE localhost:8080/api/users/2
+
+### Обновление Екатерины
+
+PUT http://localhost:8080/api/users/1
+Content-Type: application/json
+
+{
+  "newRole" : "MANAGER",
+  "newState" : "BANNED"
+}
+
+### Обновление Патрика
+
+PUT http://localhost:8080/api/users/2
+Content-Type: application/json
+
+{
+  "newRole" : "ADMIN",
+  "newState" : "BANNED"
+}
+
+### Получаем Екатерину
+
+GET http://localhost:8080/api/users/1
